@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>PMI Kota Kendari</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <h1><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d6/PMI_Logo.svg/2048px-PMI_Logo.svg.png" alt="Logo PMI" class="logo"> PMI Kota Kendari</h1>
+    <nav>
+      <ul>
+        <li><a href="#beranda">Beranda</a></li>
+        <li><a href="#visimisi">Visi Misi</a></li>
+        <li><a href="#kegiatan">Kegiatan</a></li>
+        <li><a href="#kontak">Kontak</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="beranda" class="hero">
+    <h2>Kemanusiaan adalah Tugas Kita Bersama</h2>
+    <p>Bergabunglah bersama kami dalam aksi sosial dan kemanusiaan.</p>
+  </section>
+
+  <section id="visimisi" class="section">
+    <h2>Visi & Misi PMI</h2>
+    <p><strong>Visi:</strong> Menjadi organisasi kemanusiaan terdepan yang profesional dan terpercaya.</p>
+    <p><strong>Misi:</strong></p>
+    <ul>
+      <li>Meningkatkan kapasitas pelayanan kemanusiaan</li>
+      <li>Menumbuhkan nilai solidaritas dan kesukarelaan</li>
+      <li>Memberikan respon cepat terhadap bencana</li>
+    </ul>
+  </section>
+
+  <section id="kegiatan" class="section">
+    <h2>Kegiatan Kami</h2>
+    <div class="cards">
+      <div class="card">
+        <h3>Donor Darah</h3>
+        <p>Rutin diadakan setiap bulan untuk membantu yang membutuhkan.</p>
+      </div>
+      <div class="card">
+        <h3>Pelatihan Relawan</h3>
+        <p>Pelatihan pertolongan pertama dan kesiapsiagaan bencana.</p>
+      </div>
+      <div class="card">
+        <h3>Respon Bencana</h3>
+        <p>Relawan PMI selalu siaga dalam membantu masyarakat saat bencana.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="kontak" class="section">
+    <h2>Hubungi Kami</h2>
+    <form onsubmit="return kirimForm();">
+      <label for="nama">Nama:</label>
+      <input type="text" id="nama" name="nama" required>
+
+      <label for="pesan">Pesan:</label>
+      <textarea id="pesan" name="pesan" rows="4" required></textarea>
+
+      <button type="submit">Kirim</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 PMI Kota Kendari. Semua Hak Dilindungi.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
